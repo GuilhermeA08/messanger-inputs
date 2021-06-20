@@ -1,0 +1,35 @@
+.message-bar {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.message-bar__group-input {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 19px;
+  width: 135px;
+}
+
+.message-bar__input {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 8px 0;
+  margin-left: 15px;
+  width: 75px;
+}
+
+.message-bar__img {
+  margin: 0 12px;
+}
+
+.message-bar__group-input .message-bar__img {
+  margin: 6px;
+}
+
+.message-bar__input::placeholder {
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  color: #999999;
+}
