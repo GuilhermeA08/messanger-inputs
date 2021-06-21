@@ -1,0 +1,7 @@
+@import url(/styles/utils/index.css);
+@import url(/styles/components/status-bar.css);
+
+
+body{
+    background-color: black;
+}
