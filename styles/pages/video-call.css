@@ -1,0 +1,35 @@
+@import url(/styles/utils/index.css);
+@import url(/styles/components/status-bar.css);
+@import url(/styles/components/contact.css);
+@import url(/styles/components/action-bar.css);
+
+
+body{
+    background-color: black;
+    position: relative;
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.action-bar{
+    margin-top: 0;
+}
+
+#effects{
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 336px;
+    padding-bottom: 35px;
+}
+
+.top-buttons{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
