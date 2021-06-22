@@ -1,0 +1,21 @@
+.contact{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__name{
+    margin-top: 13px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact__status{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 17px;
+    color: #FFFFFF99;
+}
