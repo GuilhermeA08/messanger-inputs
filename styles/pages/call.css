@@ -4,4 +4,16 @@
 
 body{
     background-color: black;
+    position: relative;
+}
+
+#chat-icon{
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
